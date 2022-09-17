@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include('partials/head')%>
+</head>
+<body>
+    <header>
+   <%- include('partials/navigation')%>
+    
+   <section class="inicio__container container"> 
+    <h1 class="inicio__title">El rincón del internet</h1>
+    <p class="inicio__paragraph">En esta página podrás opinar sobre tópicos, comentar noticias o simplemente publicar lo que piensas. Además encontraras una sección IA, donde te mostramos diversas obras creadas por una inteligencia artificial</p>
+    <a href="/about" class="cta">Investigar</a>
+</section>
+</header>
+<section class="variedad container">
+    <h2 class="subtitle">Algunas imágenes con descripción</h2>
+    <section class="variedad__container">
+        <article class="variedad__padding">
+            <div class="variedad__descrip">
+                <h3 class="variedad__title">El conquistador del mundo
+                <span class="variedad__flecha">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                      </svg>  
+                </span>
+            </h3>
+            <div class="variedad__show">
+                <div class="variedad__show">
+                    <a href="https://youtube.com">
+                        <img src="images/conquistador.png" >
+                    </a>
+                    <p>Se le pidió a la IA que genere lo que para ella sería el conquistador del mundo. Dentro de la obra se observa un hombre con un título, el hombre se encuentra en una especie de desierto armado con una lanza.
+                    </p>
+                </div>
+            </div>
+         </div>
+        </article>
+
+
+        <article class="variedad__padding">
+            <div class="variedad__descrip">
+                <h3 class="variedad__title">La mujer más bella
+                <span class="variedad__flecha">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                      </svg>         
+                </span>
+            </h3>
+            <div class="variedad__show">
+                <div class="variedad__show">
+                    <a href="https://youtube.com">
+                        <img src="images/mujer.png" >
+                    </a>
+                    <p>En este caso se pidió lo que para la IA era la imagen de la mujer más bella del mundo según su criterio, si tratas de buscar la imagen en GoogleImages no lograrás encontrar a esta mujer, ya que no existe. 
+                    </p>
+                </div>
+            </div>
+         </div>
+        </article>
+
+
+        <article class="variedad__padding">
+            <div class="variedad__descrip">
+                <h3 class="variedad__title">El ser más espeluznante
+                <span class="variedad__flecha">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+                      </svg>   
+                </span>
+            </h3>
+            <div class="variedad__show">
+                <div class="variedad__show">
+                    <a href="https://youtube.com">
+                        <img src="images/miedo.png" >
+                    </a>
+                    <p>¿Qué opinas? ¿te parece éste el ser más espeluznante que pudes imaginar? para esta IA si, se pidió que dibujara lo que para ella es la imagen más espeluznante de todas. 
+                    </p>
+                </div>
+            </div>
+         </div>
+        </article>
+    </section>
+
+</section>
+
+
+
+
+    <%- include('partials/footer')%>
+</body>
+</html>

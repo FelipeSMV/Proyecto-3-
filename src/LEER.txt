@@ -1,0 +1,6 @@
+Nombre: Felipe San Martín 
+Profesor: René Cabrera 
+Ramo: Seguridad de Software
+Sección 6 
+
+En este caso se utilizó Node para la realización de este proyecto, el cual se combinó con el proyecto 1, algunas funcionalidades no se implementaron ya que solo se aplicó Node y su navegación entre rutas y un poco de css, a futuro se pulirá esta app ya que el tema me tiene muy interesado en termiar. 

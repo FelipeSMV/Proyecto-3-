@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <%- include('partials/head')%>
+</head>
+<body>
+ <%- include('partials/navigation')%>
+ <main>
+    <section class="container contenido">
+        <h2 class="subtitle">Dentro de este sitio encontrarás</h2>
+        <p class="contenido__paragraph">Puedes comentar dentro de esta página lo que te apetezca, ya sea información útil o no.</p>
+        
+        <div class="contenido__main">
+            <article class="contenido__icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-binoculars " viewBox="0 0 16 16">
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+                  <h5 class="contenido__paragraph">Información</h5>
+                  <p class="contenido__paragraph">Esta página no posee derechos de autor por parte de algún artísta o diseñador, ya que todas las imágenes utilizadas son únicas e irrepetibles</p>
+            </article>
+
+            <article class="contenido__icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-binoculars " viewBox="0 0 16 16">
+                    <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"/>
+                  </svg>
+                  <h5 class="contenido__paragraph">Navegación</h5>
+                  <p class="contenido__paragraph">Puedes visitar los perfiles de las personas que están en este sitio igual que tú, además de extras como el interesante tema de las IA</p>
+            </article>
+
+
+            <article class="contenido__icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-binoculars "viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"/>
+                  </svg>
+                  <h5 class="contenido__paragraph">Comentarios random</h5>
+                  <p class="contenido__paragraph">Puedes comentar lo que desees, aunque se exige que respetes las  <a href="https://www.bing.com/ck/a?!&&p=48ef503a2d47b818JmltdHM9MTY2Mjc2ODAwMCZpZ3VpZD0xYjA4YzVkYS1jOWM4LTZkY2EtM2Q0Ni1kNGIyYzg3MTZjZjgmaW5zaWQ9NTE2NA&ptn=3&hsh=3&fclid=1b08c5da-c9c8-6dca-3d46-d4b2c8716cf8&u=a1aHR0cHM6Ly93d3cudGRoLWlyYXEub3JnL3NpdGVzL2RlZmF1bHQvZmlsZXMvYTY2M2M4OWEtOTlmNS00MjM4LTg4YTktNWU5YTYwODYxZjg5X3NtcC1yZWdsYW1lbnRvX2RlX3Vzb19kZV9sYXNfcmVkZXNfc29jaWFsZXNfb3JpZ2luYWxfMC5wZGY&ntb=1">Reglas</a> </p>
+            </article>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="conocimiento">
+        <div class="conocimiento__container container">
+            <div class="conocimiento__text">
+                <h2 class="subtitle">Y dinos...</h2>
+                <p class="conocimiento__paragraph"> ¿Te gustaron las interpretaciones que tiene la IA para algunas cosas? es increíble como estas inteligencias artificiales generan diversos imágenes que un usuario le pida, esto puede llevar mucho a la imaginación y crear verdaderas obras de arte como la que estás viendo llamada "Navegando en el agua espacial". Si estás interesado en crear tus propias obras visita la página de la IA utilizada en este sitio </h2>
+                
+                <br>    <a href="https://beta.dreamstudio.ai/" class="cta">Comenzar</a>
+
+            </div>
+            <figure class="conocimiento__foto">
+                <img src="images/bote.png" class="conocimiento__img" alt="">
+            </figure>
+        </div>
+
+
+    </section>
+</main>
+<script src="js/slider.js"></script>
+<script src="js/descripcion.js"></script>
+</body>
+</html>
