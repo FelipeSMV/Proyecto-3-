@@ -8,7 +8,7 @@ const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url)); 
 app.set('views', join(__dirname,'views')); 
 app.set('view engine', 'ejs') ; 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
 app.use(indexRoutes)
 app.use(express.static(join(__dirname, 'public')))
 console.log("Funciona correctamente")
